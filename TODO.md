@@ -1,0 +1,2 @@
+- [x] Install Jupyter Notebook using py -m pip
+- [ ] Verify Jupyter installation
