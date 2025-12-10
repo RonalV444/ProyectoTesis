@@ -1,0 +1,1 @@
+$env:JAVA_HOME = "C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot"; $env:PATH = "$env:JAVA_HOME\bin;$env:PATH"; Start-Process -NoNewWindow -FilePath ".\mvnw.cmd" -ArgumentList "spring-boot:run", "-Pdev" -PassThru | Out-Null; Start-Sleep -Seconds 30; Write-Host "Servidor iniciado. Verifica en http://localhost:8080" -ForegroundColor Green
